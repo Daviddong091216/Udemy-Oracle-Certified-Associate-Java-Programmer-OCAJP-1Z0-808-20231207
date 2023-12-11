@@ -1,5 +1,7 @@
 package com.dong;
 
+import java.util.Arrays;
+
 public class ArraysDemo {
 
 	public static void main(String[] args) {
@@ -35,6 +37,15 @@ public class ArraysDemo {
 
 		int[][] m = new int[3][5];
 		System.out.println(m);
+		int[][] m2 = { { 1, 2, 3 }, { 4, 5, 6 } };
+		System.out.println(m2[0][0]);
+
+		int[] arr5 = { 3, 2, 1 };
+		System.out.println(arr5);
+		System.out.println(Arrays.toString(arr5));
+		Arrays.sort(arr5);
+		System.out.println(Arrays.toString(arr5));
+
 	}
 
 }
