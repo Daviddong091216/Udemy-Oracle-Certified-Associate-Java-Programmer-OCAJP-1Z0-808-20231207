@@ -32,6 +32,20 @@ public class MockExam1 {
 			System.out.print(a[e]);
 		}
 		System.out.println("========================================");
+		int[] arr3 = new int[2];
+		arr3[0] = 10;
+		arr3[1] = 20;
+		System.out.println(arr3[0] + ":" + arr3[1]);
+		System.out.println("========================================");
+		String[] arr = { "A", "B", "C", "D" };
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i] + " ");
+			if (arr[i].equals("A")) {
+				continue;
+			}
+			System.out.println("Work done");
+			break;
+		}
 
 	}
 

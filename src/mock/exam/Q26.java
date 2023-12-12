@@ -15,7 +15,7 @@ public class Q26 {
 //		}
 //		names.remove("Jon");
 		if (names.remove("Bran")) {
-			names.remove("Robb");
+			names.remove("Bran");
 		}
 
 		System.out.println(names);
