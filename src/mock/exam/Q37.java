@@ -7,6 +7,8 @@ public class Q37 {
 //		isAvailable = ts.doStuff();
 		ts.doStuff();
 		System.out.println(isAvailable);
+
+//		System.out.println(args[0]);
 	}
 
 	public static boolean doStuff() {

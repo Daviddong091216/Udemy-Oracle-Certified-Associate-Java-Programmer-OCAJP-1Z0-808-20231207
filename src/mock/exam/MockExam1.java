@@ -46,6 +46,13 @@ public class MockExam1 {
 			System.out.println("Work done");
 			break;
 		}
+		System.out.println("========================================");
+
+		String[] planets = { "Mercury", "Venus", "Earth", "Mars" };
+		System.out.println(planets.length); // 4 elements in the array
+		System.out.println(planets[1].length()); // Venus - 5 characters
+
+		System.out.println("========================================");
 
 	}
 
